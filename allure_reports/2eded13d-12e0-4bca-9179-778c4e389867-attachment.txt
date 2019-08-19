@@ -1,0 +1,39 @@
+get_log.py                   6 INFO     [----------Request params----------]
+get_log.py                   7 INFO     {      REQUEST_METHOD} POST
+get_log.py                   8 INFO     {         REQUEST_URL} http://192.168.184.77:8381/spine/admin_services/json4/User/simple_login
+get_log.py                   9 INFO     {     REQUEST_HEADERS} {'User-Agent': 'python-requests/2.21.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '54', 'Content-Type': 'application/x-www-form-urlencoded'}
+get_log.py                  11 INFO     {        REQUEST_BODY} login=test_htm_admin&password=q1w2e3r4t5y6&language=ru
+get_log.py                  13 INFO     [-------------Response-------------]
+get_log.py                  14 INFO     {RESPONSE_STATUS_CODE} 200
+get_log.py                  16 INFO     {       RESPONSE_BODY} {"code":0,"message":"","rows":[{"adminUIproperties":"adminui_index.html"}]}
+get_log.py                   6 INFO     [----------Request params----------]
+get_log.py                   7 INFO     {      REQUEST_METHOD} POST
+get_log.py                   8 INFO     {         REQUEST_URL} http://192.168.221.68:9000/sessions
+get_log.py                   9 INFO     {     REQUEST_HEADERS} {'User-Agent': 'python-requests/2.21.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '64'}
+get_log.py                  11 INFO     {        REQUEST_BODY} b'{"email": "test_htm_api@test.test", "password": "Q1w2e3r4t5y6!"}'
+get_log.py                  13 INFO     [-------------Response-------------]
+get_log.py                  14 INFO     {RESPONSE_STATUS_CODE} 200
+get_log.py                  16 INFO     {       RESPONSE_BODY} {"session_id":"a6a0e754-b73e-4b24-8261-126753c5d039"}
+get_log.py                   6 INFO     [----------Request params----------]
+get_log.py                   7 INFO     {      REQUEST_METHOD} POST
+get_log.py                   8 INFO     {         REQUEST_URL} http://192.168.221.68:9000/sessions
+get_log.py                   9 INFO     {     REQUEST_HEADERS} {'User-Agent': 'python-requests/2.21.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '51'}
+get_log.py                  11 INFO     {        REQUEST_BODY} b'{"email": "ct-admin@rt.ru", "password": "123456ct"}'
+get_log.py                  13 INFO     [-------------Response-------------]
+get_log.py                  14 INFO     {RESPONSE_STATUS_CODE} 200
+get_log.py                  16 INFO     {       RESPONSE_BODY} {"session_id":"aad1b9e2-21e7-4f4a-87f3-34b560171b77"}
+get_log.py                   6 INFO     [----------Request params----------]
+get_log.py                   7 INFO     {      REQUEST_METHOD} POST
+get_log.py                   8 INFO     {         REQUEST_URL} http://192.168.221.68:9000/sessions
+get_log.py                   9 INFO     {     REQUEST_HEADERS} {'User-Agent': 'python-requests/2.21.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '73'}
+get_log.py                  11 INFO     {        REQUEST_BODY} b'{"email": "employee_test_htm_api@test.test", "password": "Q1w2e3r4t5y6!"}'
+get_log.py                  13 INFO     [-------------Response-------------]
+get_log.py                  14 INFO     {RESPONSE_STATUS_CODE} 200
+get_log.py                  16 INFO     {       RESPONSE_BODY} {"session_id":"9b89232e-7b8b-4971-bd4d-a4a4fcddb6ab"}
+get_log.py                   6 INFO     [----------Request params----------]
+get_log.py                   7 INFO     {      REQUEST_METHOD} GET
+get_log.py                   8 INFO     {         REQUEST_URL} http://192.168.221.68:9000/healthcheck
+get_log.py                   9 INFO     {     REQUEST_HEADERS} {'User-Agent': 'python-requests/2.21.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'session_id': 'a6a0e754-b73e-4b24-8261-126753c5d039'}
+get_log.py                  13 INFO     [-------------Response-------------]
+get_log.py                  14 INFO     {RESPONSE_STATUS_CODE} 200
+get_log.py                  16 INFO     {       RESPONSE_BODY} {"app":{"version":"v0.2.0208","uptime":509475,"memory":{"heap_objects":14166,"heap_in_use_bytes":3940352,"heap_idle_bytes":62480384,"heap_released_bytes":0,"system_alloc_bytes":71760120,"gc_total_runs":4696,"gc_total_ns":355743248},"status":true,"error":""},"nsq":{"version":"1.1.0","health":"OK","start_time":1548422579,"topics":[{"topic_name":"b2b_nsq_resender","channels":[{"channel_name":"node1","depth":0,"backend_depth":0,"in_flight_count":0,"deferred_count":0,"message_count":175,"requeue_count":0,"timeout_count":0,"clients":[{"client_id":"localhost","hostname":"localhost.localdomain","version":"V2","remote_address":"192.168.30.6:34250","state":3,"ready_count":200,"in_flight_count":0,"message_count":4,"finish_count":4,"requeue_count":0,"connect_ts":1550047947,"sample_rate":0,"deflate":false,"snappy":false,"user_agent":"go-nsq/1.0.6","tls":false,"tls_cipher_suite":"","tls_version":"","tls_negotiated_protocol":"","tls_negotiated_protocol_is_mutual":false}],"paused":false,"e2e_processing_latency":{"count":0,"percentiles":null}}],"depth":0,"backend_depth":0,"message_count":175,"paused":false,"e2e_processing_latency":{"count":0,"percentiles":null}}],"memory":{"heap_objects":5477,"heap_idle_bytes":3121152,"heap_in_use_bytes":1499136,"heap_released_bytes":3047424,"gc_pause_usec_100":367,"gc_pause_usec_99":202,"gc_pause_usec_95":131,"next_gc_bytes":4194304,"gc_total_runs":13321},"status":true,"error":""},"db":{"version":"PostgreSQL 9.6.10 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-28), 64-bit","connections":[{"pid":20553,"db_name":"itv_b2b_admin","ip":"127.0.0.1","start_time":1549978640,"state":"active","state_last_changed":1550049876},{"pid":20555,"db_name":"itv_b2b_admin","ip":"127.0.0.1","start_time":1549978641,"state":"idle","state_last_changed":1550049876}],"status":true,"error":""},"redis":{"status":true,"error":""}}

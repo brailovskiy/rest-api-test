@@ -1,0 +1,501 @@
+prod:
+  url: "http://192.168.221.68:9000/"
+  mrf:
+    mos:
+      sdp_api_url: "http://192.168.196.57:8081/"
+
+      main_hotel:
+        hotel_id: "987654321"
+
+        main_room:
+          san: "135797531"
+          number: "531"
+          sdp_room_id: "125489407"
+
+        second_room:
+          san: "135797513"
+          number: "513"
+          sdp_room_id: "125710110"
+
+        third_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+      second_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+    ural:
+      sdp_api_url: "http://192.168.208.35:8081/"
+
+      main_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        second_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        third_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+      second_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+    ct:
+      sdp_api_url: "http://192.168.186.26:8081/"
+
+      main_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        second_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        third_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+      second_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+    volga:
+      sdp_api_url: "http://192.168.202.28:8081/"
+
+      main_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        second_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        third_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+      second_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+    sibir:
+      sdp_api_url: "http://192.168.204.26:8081/"
+
+      main_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        second_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        third_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+      second_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+    fe:
+      sdp_api_url: "http://192.168.210.15:8081/"
+
+      main_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        second_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        third_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+      second_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+    south:
+      sdp_api_url: "http://192.168.200.27:8081/"
+
+      main_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        second_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        third_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+      second_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+    nw:
+      sdp_api_url: "http://192.168.198.17:8081/"
+
+      main_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        second_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        third_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+      second_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+test:
+  url: "http://192.168.221.68:9000/"
+  mrf:
+    mos:
+      sdp_api_url: ""
+
+      main_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        second_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        third_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+      second_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+    ural:
+      sdp_api_url: ""
+
+      main_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        second_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        third_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+      second_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+    ct:
+      sdp_api_url: "http://192.168.184.77:8381/"
+
+      main_hotel:
+        hotel_id: "150612589"
+
+        main_room:
+          san: "5555555551"
+          number: "551"
+          sdp_room_id: "150612592"
+          
+          connection_slots:
+            first_slot:
+              id: "150612596"
+              mac: "QA:ZW:SX:ED:CR:FV"
+              type: "stb"
+              device_type: 1
+
+            second_slot:
+              id: "153353813"
+              mac: "BD2B9C9A-23D8-11E9-ADCA-5254000138CA"
+              type: "smart_tv"
+              device_type: 2
+
+            third_slot:
+              id: "153353816"
+              mac: "QW:EE:DS:AF:SA:DF:SD:FA"
+              type: "unknown_device"
+              device_type: 0
+
+            fourth_slot:
+              id: "153353822"
+              mac: ""
+              type: "free_slot"
+              device_type: 0
+
+        second_room:
+          san: "5555555552"
+          number: "552"
+          sdp_room_id: "150612598"
+
+        third_room:
+          san: "5555555553"
+          number: "553"
+          sdp_room_id: "151947015"
+
+      second_hotel:
+        hotel_id: "150971166"
+
+        main_room:
+          san: "6666666661"
+          number: "661"
+          sdp_room_id: "150971169"
+
+          connection_slots:
+            first_slot:
+              id: "150971173"
+              mac: "UJ:MY:HN:TG:BR:FV"
+              type: "stb"
+              device_type: 1
+
+    volga:
+      sdp_api_url: ""
+
+      main_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        second_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        third_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+      second_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+    sibir:
+      sdp_api_url: ""
+
+      main_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        second_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        third_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+      second_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+    fe:
+      sdp_api_url: ""
+
+      main_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        second_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        third_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+      second_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+    south:
+      sdp_api_url: ""
+
+      main_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        second_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        third_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+      second_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+    nw:
+      sdp_api_url: ""
+
+      main_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        second_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+        third_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""
+
+      second_hotel:
+        hotel_id: ""
+
+        main_room:
+          san: ""
+          number: ""
+          sdp_room_id: ""

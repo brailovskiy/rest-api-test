@@ -1,0 +1,7 @@
+get_log.py                   6 INFO     [----------Request params----------]
+get_log.py                   7 INFO     {      REQUEST_METHOD} GET
+get_log.py                   8 INFO     {         REQUEST_URL} http://192.168.221.68:9000/rooms/5555555553/purchases
+get_log.py                   9 INFO     {     REQUEST_HEADERS} {'User-Agent': 'python-requests/2.21.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'session_id': 'a6a0e754-b73e-4b24-8261-126753c5d039'}
+get_log.py                  13 INFO     [-------------Response-------------]
+get_log.py                  14 INFO     {RESPONSE_STATUS_CODE} 200
+get_log.py                  16 INFO     {       RESPONSE_BODY} {"id":"151947015","service_account_number":"5555555553","room_id":"553","name":"НЕ ТРОГАТЬ - тест покупок","in_date":1547540793,"out_date":0,"purchases":[{"price":5000,"name":"Сахара","purchased_at":1547541622},{"price":5000,"name":"Карлик Нос","purchased_at":1547541714},{"price":10200,"name":"Взрослый Деловой","purchased_at":1547541751}]}

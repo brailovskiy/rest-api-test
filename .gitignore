@@ -1,0 +1,7 @@
+.pytest_cache/
+.idea/
+tests/.pytest_cache/
+.venv/
+.env
+cookies
+logs/allure-results/*
